@@ -1,0 +1,383 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LIOLI CERAMICA</title>
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+    /* Navigation Bar */
+    #na {
+      position: fixed;
+      margin-top: -20%;
+      background-color: white;
+      width: 100%;
+      padding: 10px 0;
+      margin: 0;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    #na img.back {
+      padding-left: 2%;
+      padding-right: 30%;
+      height: 30px;
+    }
+
+    #na .nav {
+      color: #333;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 150%;
+    }
+
+    #na .nav:hover {
+      color: #007bff;
+    }
+
+    /* Header Image */
+    #top {
+      width: 100%;
+      height: auto;
+      margin-top: 0px; /* Adjusted for fixed nav */
+    }
+
+    /* Sections */
+    section {
+      padding: 20px;
+      text-align: center;
+    }
+
+    section big {
+      font-size: 30px;
+      font-weight: 600;
+    }
+
+    section p {
+      font-size: 18px;
+      line-height: 30px;
+      text-align: justify;
+      padding: 0 20px;
+    }
+
+    /* Images Grid */
+    .im, .lo, .mo, .ro {
+      width: 100%;
+      padding-left: 2.4%;
+      max-width: 360px;
+      height: auto;
+      margin: 10px;
+    }
+
+    /* Table Layout */
+    table {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px;
+    }
+
+    table td {
+      padding: 10px;
+      vertical-align: top;
+    }
+
+    table img {
+      width: 22%;
+      height: auto;
+    }
+
+    .he{
+            box-shadow: 5px 2px 2px rgb(72, 72, 72);
+            background-color: black;
+            color: aliceblue;
+            border: 0px;
+            border-radius: 10px;
+            border: 0;  width: 22%; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px;
+            height: 50px;
+        }
+
+    /* Footer */
+    /* footer {
+      background-color: dimgray;
+      color: aliceblue;
+      padding: 20px;
+      text-align: left;
+    }
+
+    footer table {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    footer a {
+      color: aliceblue;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #007bff;
+    } */
+    footer {
+      background-color: dimgray;
+      color: aliceblue;
+      padding: 20px;
+      text-align: left;
+    }
+    footer img{
+        width: 30%;
+    }
+    footer table {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    footer a {
+      color: aliceblue;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #007bff;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      #na {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+      }
+
+      #na img.back {
+        padding-left: 20px;
+      }
+
+      #na .nav {
+        padding: 5px 10px;
+      }
+
+      section big {
+        font-size: 24px;
+        padding-left: 0;
+      }
+
+      table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+
+      .im, .lo, .mo, .ro {
+        margin: 10px 0;
+      }
+    }
+
+    @media (max-width: 480px) {
+      section big {
+        font-size: 20px;
+      }
+
+      section p {
+        font-size: 16px;
+      }
+
+      footer table td {
+        display: block;
+        width: 100%;
+        text-align: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div id="na">
+    <img class="back" src="photos/logo.png" alt="logo">
+    <a class="nav" href="index.html">Home</a>
+    <a class="nav" href="product.html">Product</a>
+    <a class="nav" href="E-catalogue.html">E-catalogue</a>
+    <a class="nav" href="contact.html">Contact</a>
+  </div>
+
+  <!-- Header Image -->
+  <div>
+    <img src="photos/top.jpg" alt="top" id="top">
+  </div>
+
+  <!-- About Section -->
+  <section>
+    <big>ABOUT LIOLI CERAMICA</big>
+    <img src="photos/lineing.png" alt="design" width="100px">
+    <p>
+      Lioli Ceramica (by <b>Caesarstone</b>) is a pioneer in manufacturing Asia’s largest porcelain slabs, measuring <b>1600x3200mm</b>. Based in Morbi, India, we are a leading name in the porcelain tile industry, known for our state-of-the-art technology and exceptional craftsmanship.<br><br>
+      As a proud part of Caesarstone, the global leader in engineered quartz surfaces, we merge our expertise in large-format slab production with Caesarstone's legacy of excellence. With over a decade of redefining interior décor, we continue to set benchmarks in quality, innovation, and sustainability.<br><br>
+      Our sophisticated porcelain slabs cater to a wide range of spaces, from homes to commercial establishments, offering a perfect blend of functionality and design. Backed by meticulous quality control and extensive research, our products meet the evolving needs of architects, designers, contractors, and homeowners.<br><br>
+      At Lioli Ceramica, we believe surfaces are more than just functional—they're a canvas for innovation. Together with Caesarstone, we are shaping the future of surface solutions, delivering unparalleled design and durability.
+    </p>
+  </section>
+
+  <!-- Image Grid -->
+  <center>
+    <div>
+        <img class="im lo" src="photos/2-1 photo.jpg" alt="1600 ✖ 3200">
+        <img class="im mo" src="photos/2-2 photo.jpg" alt="1200 ✖ 2400">
+        <img class="im ro" src="photos/2-3 photo.jpg" alt="1200 ✖ 2400(facede)">
+        <img class="lo" src="photos/3-1 photo.jpg" alt="1600 ✖ 1600">
+        <img class="mo" src="photos/3-2 photo.jpg" alt="1200 ✖ 1200">
+        <img class="ro" src="photos/3-3 photo.jpg" alt="800 ✖ 1600">
+      </div>
+  </center>
+
+  <!-- Why Lioli Section -->
+  <section>
+    <big>WHY LIOLI CERAMICA</big>
+    <img src="photos/lineing.png" alt="design" width="100px">
+    <p>
+      Lioli is a leading manufacturer of porcelain tile and is continuously raising the bar with its tech expertise and innovation in the tile industry on a global level. Since our inception in 2016, we’ve been consistently delivering high-quality products with unmatchable customer service. We make living truly mesmerizing with porcelain slab tiles that radiate beauty and exclusivity. Lioli's relentless pursuit has made it achieve a strong foothold in Indian as well as international markets. Our strong vision, team members, expertise, and experience make us what we are today—the most prominent porcelain tile manufacturers in Morbi, India.
+    </p>
+  </section>
+
+  <!-- Table Section -->
+  <table>
+    <tr>
+      <td>
+        <img src="photos/diamond.png" alt="diamond">
+        <p>
+          <b>Elegant Collections</b><br>
+          Being India’s biggest large-format porcelain tile manufacturer, we take pride in delivering a huge customized range of porcelain slab designs, styles, and sizes for all your decor needs. We’re India’s first tile company manufacturing 3200*1600 mm size slabs with the latest Italian technology under the flagship TechnoSLAB.
+        </p>
+      </td>
+      <td>
+        <img src="photos/value.png" alt="value">
+        <p>
+          <b>True to our values</b><br>
+          Customer satisfaction is our top priority. Keeping up with the latest trends and customer preferences, Lioli is committed to providing top-notch quality products high on innovation and style through a structured distribution channel and efficient customer service. We keep evolving to amaze.
+        </p>
+      </td>
+      <td>
+        <img src="photos/research-and-development.png" alt="research-and-development">
+        <p>
+          <b>Research & Development</b><br>
+          We believe in creating art that lasts forever. Our never-ending quest for innovation and providing tile solutions that truly redefine human experiences are what define us. With a robust R&D facility, we constantly explore new opportunities to simplify and mesmerize our customers' lives through groundbreaking tech and innovation expertise.
+        </p>
+      </td>
+    </tr>
+  </table>
+
+  <section>
+    <table >
+       <div style="background-color: darkgrey; padding-bottom: 40px;padding-top: 30px;">
+        <p class="text" style="text-align: left ; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px; background-color: darkgrey; text-align: justify;padding: 0 20px;"  >
+            Explore a wide range of tiles from the largest porcelain tile manufacturing company in India and make your spaces look fascinating as the sky and serene as nature. Lioli
+            was started with a vision to create intriguing & meaningful experiences for customers across the world and set new benchmarks of excellence. Every tile is designed, 
+            styled & textured sourcing the finest materials, incorporating our creativity, expertise and world-class technology to create the best in world porcelain slab tiles. 
+            Choose your favourite style from our sophisticated marble series that reflects grand aura, natural stone series that brings in the tranquility of nature, wooden series
+            for that elegant rustic look and many more for all your decor needs.  <br>
+            
+            <div style="background-color: darkgrey; padding-left: 2%;">
+                <a href="contact.html"><button class="he">Request a call back</button></a>
+                 <!-- <input class="he" type="button" value="Request a call back" style=" border: 0; height: 50px; width: 200px; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; font-size: 18px;" >  -->
+            </div>
+                        </p>
+       </div>
+       
+    </table>
+     
+    <hr>
+
+</section>
+
+<section style="height: auto;">
+    <div style="padding-top: 10px;padding-bottom: 30px;"><big style="text-align: center;padding-left: 0%;font-size: 30px;font-weight: 600;">OUR FAVOURITES PRODUCTS</big><img style="height: 23px; " src="photos/lineing.png" alt="design" width="100px"></div>
+    
+    <br>
+    <img style="padding-left: 1.5%;" src="photos/AFYON0WHITE-F2 (4-1)photo.webp" alt="AFYON0WHITE-F2" width="190px" height="380.24px">
+    <img style="padding-left: 34px;" src="photos/SAINT-LAURENT (4-2)photo.webp" alt="SAINT-LAURENT" width="190px" height="380.24px">
+    <img style="padding-left: 34px;" src="photos/CALACUTTA-BORGHINI-F1 (4-3)photo.webp" alt="CALACUTTA-BORGHINI-F1" width="190px" height="380.24px">
+    <img  style="padding-left: 34px;" src="photos/CALACUTTA-BINACO-ORO (4-4)photo.webp" alt="CALACUTTA-BINACO-ORO" width="190px" height="380.24px">
+    <img style="padding-left: 34px;" src="photos/MERIDIANAMARRONA (4-5)photo.webp" alt="MERIDIANAMARRONA" width="190px" height="380.24px">
+   
+
+</section>
+
+<hr>
+<section style="width: auto;">
+    <p style="text-align: center;padding-left: 0px;font-size: 30px;font-weight: 700;padding-top: 20px;"><big>EXPLORE OUR WIDE
+        RANGE OF TILES CATALOGUE</big></p>
+
+        <table>
+            <tr style="padding-left: 0%;padding-right: 0%;">
+                <td style="width: 70%">
+                    <p style="text-align: justify; font-family: sans-serif; font-size: 21px; line-height: 35px;;" >
+                        We are Lioli, India’s biggest porcelain tile manufacturer. We combine art, elegance, natural-inspired designs to 
+                        produce for our customers porcelain slab tiles that are durable, hold prestige and add a personal touch to your
+                        spaces. Our collaboration with the best tile designers & engineers ensures our products are always top-quality,
+                        never making you go out of style. Browse our tile collection for unlimited design ideas to spruce up your home
+                        or commercial space. From minimal to bold and rustic to modern, go for an ultra-designer look with our breathtaking
+                        tile collection.
+                                    </p>
+                </td>
+                <td>
+                    <img src="photos/explore 5 photo.png" alt="explore"  style="width: 80%; padding-top: 6%;" >
+                </td>
+            </tr>
+        </table>
+
+</section>
+
+
+   <!-- Footer -->
+   <footer>
+    <table>
+        <tr>
+            <td style="padding: 39px;"><img style="height: 32px;" src="photos/logo.png" alt="logo"></td>
+        </tr>
+        <tr>
+            <td style="width: 350px;">
+                <div style="padding-top: 14px; margin-bottom: 10px; padding-bottom: 0px; padding-left: 40px;">
+                    <b style="color: aliceblue; font-size: 28px; font-family: sans-serif;">HEAD OFFICE</b>
+                </div>
+                <div style="padding-left: 40px;">
+                    <p style="color: aliceblue; text-align: left; font-family: sans-serif; font-size: 16px;">
+                        CBM Tower, C 31, Ch. Nathu Singh Market, 3rd Floor, K No 394, Vasant Kunj, New Delhi
+                    </p>
+                </div>
+                <div style="padding-left: 40px; padding-top: 30px;">
+                    <b style="color: aliceblue; font-size: 28px; font-family: sans-serif;">PLANT ADDRESS</b>
+                    <p style="color: aliceblue; text-align: left; font-family: sans-serif; font-size: 16px;">
+                        Survey No. 121, At. Pipli, Tal. Morbi, Dist. Morbi, Gujarat
+                    </p>
+                </div>
+            </td>
+            <td style="width: 350px; padding-top: 10%;">
+                <div style="text-align: center; margin-top: -90px;">
+                    <b style="color: aliceblue; font-family: sans-serif; font-size: 28px;">LINKS</b>
+                    <p>
+                        <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="product.html">Product</a><br>
+                        <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="E-catalogue.html">E-catalogue</a><br>
+                        <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="contact.html">Contact</a>
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</footer>
+</body>
+</html>

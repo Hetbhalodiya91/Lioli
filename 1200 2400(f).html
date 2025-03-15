@@ -1,0 +1,266 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LIOLI CERAMICA-1200x2400mm (Facade)</title>
+    <style>
+        /* General Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+
+
+         /* Navigation Bar */
+    #na {
+      position: fixed;
+      margin-top: -20%;
+      background-color: white;
+      width: 100%;
+      padding: 10px 0;
+      margin: 0;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    #na img.back {
+      padding-left: 2%;
+      padding-right: 30%;
+      height: 30px;
+    }
+
+    #na .nav {
+      color: #333;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 150%;
+    }
+
+    #na .nav:hover {
+      color: #007bff;
+    }
+
+        /* Header Image */
+        .st img {
+            width: 100%;
+            height: auto;
+            margin-top: 80px; /* Adjusted for fixed nav */
+        }
+
+        /* Title Section */
+        #title {
+            font-size: 41px;
+            font-family: sans-serif;
+            font-weight: 600;
+            text-align: center;
+            padding: 20px;
+        }
+
+        /* Description Section */
+        .description {
+            padding: 0 100px;
+            text-align: left;
+        }
+
+        .description p {
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: 400;
+        }
+
+        /* Product Grid */
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .item {
+            width: calc(25% - 40px); /* 4 items per row */
+            border: 2px solid rgb(165, 165, 165);
+            text-align: center;
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        .item img {
+            width: 100%;
+            height: auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: dimgray;
+            color: aliceblue;
+            padding: 20px;
+            text-align: left;
+        }
+
+        footer table {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        footer a {
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            color: #007bff;
+        }
+
+        /* Media Queries for Responsiveness */
+        @media (max-width: 1024px) {
+            .item {
+                width: calc(33.33% - 40px); /* 3 items per row */
+            }
+        }
+
+        @media (max-width: 768px) {
+            #na {
+                flex-direction: column;
+                height: auto;
+                padding: 10px;
+            }
+
+            #na img.back {
+                padding-left: 20px;
+            }
+
+            #na .nav {
+                padding: 5px 10px;
+            }
+
+            .description {
+                padding: 0 20px;
+            }
+
+            .item {
+                width: calc(50% - 40px); /* 2 items per row */
+            }
+        }
+
+        @media (max-width: 480px) {
+            #title {
+                font-size: 24px;
+            }
+
+            .description p {
+                font-size: 16px;
+            }
+
+            .item {
+                width: calc(100% - 40px); /* 1 item per row */
+            }
+
+            footer table td {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <div id="na" style="margin-top: -2%;">
+        <img class="back" src="photos/logo.png" alt="logo">
+        <a class="nav" href="index.html">Home</a>
+        <a class="nav" href="product.html">Product</a>
+        <a class="nav" href="E-catalogue.html">E-catalogue</a>
+        <a class="nav" href="contact.html">Contact</a>
+    </div>
+
+    <!-- Header Image -->
+    <section class="st">
+        <img src="photos/prodect/1200 1200/facades.webp" alt="top">
+    </section>
+
+    <!-- Title Section -->
+    <div id="title">
+        <p>1200x2400mm (Facade)</p>
+    </div>
+
+    <!-- Description Section -->
+    <div class="description">
+        <p style="font-size: 30px;">1200*2400mm - KITCHEN TOPS, COUNTER TOPS, WALL AND BIG PLACE FLOORING</p>
+        <p>
+            Lioli brings an exclusive collection of 1600*3200mm slab tiles ideal for kitchen tops, countertops, walls as well as flooring. Created using the best raw material with the latest technology, our expert designers ensure each tile is crafted perfectly- from the kiln to your space. Redefine the look of your place with Lioli, the preeminent slab tile manufacturer in India. With Lioli, your choices are never limited. Through trendsetting innovations and leading-edge expertise in the porcelain slab industry, we produce slab tiles of unparalleled quality. Designed immaculately with the finest resources and unparalleled expertise, the Lioli tile slab collection offers you a plethora of options to choose from!
+        </p>
+    </div>
+
+    <!-- Product Grid -->
+    <div class="container">
+        <div class="item"><img src="photos/prodect/1600 3200/a1.jpg" alt=""><br><p>Belgium Stone</p></div>
+        <div class="item"><img src="photos/prodect/1200-2400/a1.jpg" alt=""><br><p>Calacutta Bianco</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/a3.jpg" alt=""><br><p>Calacutta Borghini</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/a4.jpg" alt=""><br><p>Lithic Antracite</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/b1.jpg" alt=""><br><p>Lithic Coin</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/b2.jpg" alt=""><br><p>Meek Artic..</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/b3.jpg" alt=""><br><p>Nero Marquina</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/b4.jpg" alt=""><br><p>Pietra Grey</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/c1.jpg" alt=""><br><p>Statuario</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/c2.jpg" alt=""><br><p>Statuario Venetian</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/c3.jpg" alt=""><br><p>Stratum Portoro</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/c4.jpg" alt=""><br><p>Saint Laurent</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/d1.jpg" alt=""><br><p>Terra Flakes</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/d2.jpg" alt=""><br><p>Bianco Lasa</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/d3.jpg" alt=""><br><p>Calacatta Luxe</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/d4.jpg" alt=""><br><p>Dior Gold</p></div>
+        <div class="item"><img src="photos/prodect/1600 3200/e1.jpg" alt=""><br><p>Polaris</p></div>
+        <!-- <div class="item"><img src="photos/prodect/1600 3200/e2.jpg" alt=""><br><p>Saturn</p></div> -->
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <table>
+            <tr>
+                <td style="padding: 35px;"><img style="height: 30px;" src="photos/logo.png" alt="logo"></td>
+            </tr>
+            <tr>
+                <td style="width: 350px;">
+                    <div style="padding-top: 14px; margin-bottom: 10px; padding-bottom: 0px; padding-left: 40px;">
+                        <b style="color: aliceblue; font-size: 28px; font-family: sans-serif;">HEAD OFFICE</b>
+                    </div>
+                    <div style="padding-left: 40px;">
+                        <p style="color: aliceblue; text-align: left; font-family: sans-serif; font-size: 16px;">
+                            CBM Tower, C 31, Ch. Nathu Singh Market, 3rd Floor, K No 394, Vasant Kunj, New Delhi
+                        </p>
+                    </div>
+                    <div style="padding-left: 40px; padding-top: 30px;">
+                        <b style="color: aliceblue; font-size: 28px; font-family: sans-serif;">PLANT ADDRESS</b>
+                        <p style="color: aliceblue; text-align: left; font-family: sans-serif; font-size: 16px;">
+                            Survey No. 121, At. Pipli, Tal. Morbi, Dist. Morbi, Gujarat
+                        </p>
+                    </div>
+                </td>
+                <td style="width: 350px;">
+                    <div style="text-align: center; margin-top: -90px;">
+                        <b style="color: aliceblue; font-family: sans-serif; font-size: 28px;">LINKS</b>
+                        <p>
+                            <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="product.html">Product</a><br>
+                            <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="E-catalogue.html">E-catalogue</a><br>
+                            <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="contact.html">Contact</a>
+                        </p>
+                    </div>
+                </td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>

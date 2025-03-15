@@ -1,0 +1,241 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E-CATALOGUES</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* General Styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f4f4f4;
+    }
+
+
+
+        /* Navigation Bar */
+        #na {
+      position: fixed;
+      margin-top: -20%;
+      background-color: white;
+      width: 100%;
+      margin-top: -8%;
+      padding: 10px 0;
+      margin: 0;
+      height: 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      z-index: 1000;
+    }
+
+    #na img.back {
+      padding-left: 2%;
+      padding-right: 30%;
+      height: 30px;
+    }
+
+    #na .nav {
+      color: #333;
+      text-decoration: none;
+      padding: 10px 20px;
+      font-size: 150%;
+    }
+
+    #na .nav:hover {
+      color: #007bff;
+    }
+    /* Main Content */
+    #ew {
+      text-align: center;
+      padding-bottom: 30px;
+      font-size: 22px;
+      margin-top: 80px; /* Adjusted for fixed nav */
+    }
+
+    #w {
+      display: flex;
+      justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    .de {
+      text-align: center;
+      margin: 20px;
+    }
+
+    .de img {
+      height: 200px;
+      margin: 10px;
+    }
+
+    .buutton {
+      height: 40px;
+      width: 200px;
+      margin: 20px;
+      background-color: black;
+      color: aliceblue;
+      border: 0;
+      box-shadow: 5px 2px 2px rgb(59, 59, 59);
+      border-radius: 10px;
+      font-size: 18px;
+      font-family: sans-serif;
+      cursor: pointer;
+    }
+
+    .buutton:hover {
+      background-color: #333;
+    }
+
+    /* Footer */
+    footer {
+      background-color: dimgray;
+      color: aliceblue;
+      padding: 20px;
+      text-align: left;
+    }
+    footer img{
+        width: 30%;
+    }
+    footer table {
+      width: 100%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    footer a {
+      color: aliceblue;
+      text-decoration: none;
+    }
+
+    footer a:hover {
+      color: #007bff;
+    }
+
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      #na {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+      }
+
+      #na img.back {
+        padding-left: 20px;
+      }
+
+      #na .nav {
+        padding: 5px 10px;
+        font-size: 16px;
+      }
+
+      #ew {
+        font-size: 20px;
+      }
+
+      #w {
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .de img {
+        height: 150px;
+      }
+
+      .buutton {
+        width: 150px;
+        font-size: 16px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      #ew {
+        font-size: 18px;
+      }
+
+      .de img {
+        height: 120px;
+      }
+
+      .buutton {
+        width: 120px;
+        font-size: 14px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation Bar -->
+  <div id="na" style="margin-top: -6.28%;">
+    <img class="back" src="photos/logo.png" alt="logo">
+    <a class="nav" href="index.html">Home</a>
+    <a class="nav" href="product.html">Product</a>
+    <a class="nav" href="E-catalogue.html">E-catalogue</a>
+    <a class="nav" href="contact.html">Contact</a>
+  </div>
+
+  <!-- Main Content -->
+  <div id="ew" style="padding: 4%;">
+    <h1><b>PORCELAIN TILES CATALOGUES</b></h1>
+  </div>
+
+  <div id="w">
+    <div class="de">
+      <img src="photos/e-catlog(1).jpg" alt="Master Catalogue 2024">
+      <br> Master Catalogue 2024 <br>
+      <a href="Lioli_Mater_Catalouge_2024.pdf"><button class="buutton">Download</button></a>
+    </div>
+    <div class="de">
+      <img src="photos/e-catlog(2).jpg" alt="Cleaning And Maintenance Guide">
+      <br> Cleaning And Maintenance Guide <br>
+      <a href="Lioli_cleaning_and_mainenance_guide.pdf"><button class="buutton">Download</button></a>
+    </div>
+  </div>
+
+   <!-- Footer -->
+   <footer>
+    <table>
+        <tr>
+            <td style="padding: 35px;"><img style="height: 30px;" src="photos/logo.png" alt="logo"></td>
+        </tr>
+        <tr>
+            <td style="width: 350px;">
+                <div style="padding-top: 14px; margin-bottom: 10px; padding-bottom: 0px; padding-left: 40px;">
+                    <b style="color: aliceblue; font-size: 28px; font-family: sans-serif;">HEAD OFFICE</b>
+                </div>
+                <div style="padding-left: 40px;">
+                    <p style="color: aliceblue; text-align: left; font-family: sans-serif; font-size: 16px;">
+                        CBM Tower, C 31, Ch. Nathu Singh Market, 3rd Floor, K No 394, Vasant Kunj, New Delhi
+                    </p>
+                </div>
+                <div style="padding-left: 40px; padding-top: 30px;">
+                    <b style="color: aliceblue; font-size: 28px; font-family: sans-serif;">PLANT ADDRESS</b>
+                    <p style="color: aliceblue; text-align: left; font-family: sans-serif; font-size: 16px;">
+                        Survey No. 121, At. Pipli, Tal. Morbi, Dist. Morbi, Gujarat
+                    </p>
+                </div>
+            </td>
+            <td style="width: 350px;">
+                <div style="text-align: center; margin-top: -90px;">
+                    <b style="color: aliceblue; font-family: sans-serif; font-size: 28px;">LINKS</b>
+                    <p>
+                        <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="product.html">Product</a><br>
+                        <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="E-catalogue.html">E-catalogue</a><br>
+                        <a style="color: aliceblue; font-family: sans-serif; font-size: 16px; text-decoration: none;" href="contact.html">Contact</a>
+                    </p>
+                </div>
+            </td>
+        </tr>
+    </table>
+</footer>
+</body>
+</html>
+
+
+
